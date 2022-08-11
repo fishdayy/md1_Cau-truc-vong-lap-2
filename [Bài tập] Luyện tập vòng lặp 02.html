@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập vòng lặp 02</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  //bài 1:
+  // let dem = 1;
+  // let st1 = 0;
+  // let st2 = 1;
+  // while ( dem < 10){
+  //     let c = st2;
+  //     st2 = st1 + st2;
+  //     st1 = c;
+  //     document.write(st1 + ' ');
+  //     dem++
+  // }
+  // bài 2:
+  // let n = +prompt(" nhập n");
+  // let i = 1;
+  // let giaithua = 1
+  // while (i < n){
+  //     i++;
+  //     giaithua = giaithua * i;
+  // }document.write(giaithua)
+
+  //bài 3
+  // for (let i = 0; i < 6; i++){
+  //     for (let j = 0; j < i; j++){
+  //         document.write('*');
+  //     }
+  //     document.write('<br>')
+  // }
+  // for (let i = 5; i > 0; i--){
+  //     for (let j = 0; j < i; j++){
+  //         document.write('*');
+  //     }
+  //     document.write('<br>')
+  // }
+  // for (let i = 5; i > 0; i--){
+  //     for (let j = 0; j < i; j++){
+  //         document.write('&nbsp;&nbsp;');
+  //     }
+  //     for (let j = 1; j < 6 - i; j++)
+  //         document.write('*');
+  //     document.write('<br>')
+  // }
+  // for (let i = 0; i < 6; i++){
+  //     for (let j = 0; j < i; j++){
+  //         document.write('&nbsp;&nbsp;');
+  //     }
+  //     for (let j = 1; j < 6 - i; j++)
+  //         document.write('*');
+  //     document.write('<br>')
+  // }
+
+  bài 4
+  for (let i = 0; i <= 7; i++){
+      if (i == 0 || i == 7){
+          for (let j = 0; j <= 20; j++){
+              document.write('*')
+          }
+      }else {
+          for (let j = 0; j <= 20; j++){
+              if (j==0 || j==20){
+                  document.write('*')
+              }else {
+                  document.write('&nbsp;&nbsp;');
+              }
+          }
+      }
+      document.write('<br>')
+  }
+
+
+</script>
